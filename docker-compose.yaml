@@ -1,0 +1,7 @@
+version: '1'
+services:
+  auth:
+    build: ./
+    image: 'auth:1.0'
+    ports:
+      - '8080'
